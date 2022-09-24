@@ -1,4 +1,5 @@
 body {
+  /* Base style */
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 20px;
   background-color: hsl(187, 90%, 91%);
@@ -6,20 +7,24 @@ body {
 }
 
 a p {
+  /* Card Paragrapgh Font */
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .card {
+  /* Card Container */
   max-width: 30ch;
   margin: auto;
 }
 
 .card:hover {
+  /* Card Hover State */
   box-shadow: 10px 5px 5px red;
   transition: all 200ms ease-out;
 }
 
 .card a {
+  /* Card Content Style */
   display: block;
 
   font-family: 'Reem Kufi', 'Palatino Linotype', cursive;
@@ -32,9 +37,11 @@ a p {
   padding: 1em;
   max-width: 30ch;
   margin: 2em auto;
+  border: 2px groove red;
 }
 
 img {
+  /* Image Style */
   margin: auto;
 
   clip-path: circle(40%);
