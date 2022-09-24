@@ -51,7 +51,7 @@ img {
 }
 
 @media only screen and (max-width: 590px) {
-/* Media Quaries */
+  /* Media Quaries */
   body {
     margin: 1.5rem;
   }
