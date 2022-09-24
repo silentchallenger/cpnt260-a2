@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 20px;
+  background-color: hsl(187, 90%, 91%);
+  line-height: 1.7;
+}
+
+a p {
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.card {
+  max-width: 30ch;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 10px 5px 5px red;
+  transition: all 200ms ease-out;
+}
+
+.card a {
+  display: block;
+
+  font-family: 'Reem Kufi', 'Palatino Linotype', cursive;
+  text-decoration: none;
+  text-align: center;
+  
+  background-color: hsl(180, 96%, 96%);
+  color: rgb(220, 0, 0);
+  
+  padding: 1em;
+  max-width: 30ch;
+  margin: 2em auto;
+}
+
+img {
+  margin: auto;
+
+  clip-path: circle(40%);
+  object-fit: cover;
+}
