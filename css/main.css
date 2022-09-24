@@ -1,43 +1,45 @@
 body {
   /* Base style */
-  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 20px;
+  line-height: 1.5;
+
+  margin: auto;
+
   background-color: hsl(187, 90%, 91%);
-  line-height: 1.7;
 }
 
-a p {
+article {
+  /* Card Container */
+  max-width: 27ch;
+  margin: 2em auto;
+  border: 2px groove red;
+
+  background-color: hsl(180, 70%, 95%);
+
+  font-family: 'Reem Kufi', 'Trebuchet MS', cursive;
+}
+
+article p {
   /* Card Paragrapgh Font */
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-.card {
-  /* Card Container */
-  max-width: 30ch;
-  margin: auto;
-}
-
-.card:hover {
-  /* Card Hover State */
-  box-shadow: 10px 5px 5px red;
-  transition: all 200ms ease-out;
-}
-
-.card a {
+article a {
   /* Card Content Style */
   display: block;
 
-  font-family: 'Reem Kufi', 'Palatino Linotype', cursive;
-  text-decoration: none;
-  text-align: center;
-  
-  background-color: hsl(180, 70%, 95%);
-  color: rgb(220, 0, 0);
-  
   padding: 1em;
-  max-width: 30ch;
-  margin: 2em auto;
-  border: 2px groove red;
+  margin: auto;
+
+  text-align: center;
+  text-decoration: none;
+  color: rgb(220, 0, 0);
+}
+
+article:hover {
+  /* Card Hover State */
+  box-shadow: 10px 5px 5px red;
+  transition: all 200ms ease-out;
 }
 
 img {
@@ -46,4 +48,11 @@ img {
 
   clip-path: circle(40%);
   object-fit: cover;
+}
+
+@media only screen and (max-width: 590px) {
+/* Media Quaries */
+  body {
+    margin: 1.5rem;
+  }
 }
